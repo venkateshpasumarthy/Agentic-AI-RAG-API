@@ -244,4 +244,5 @@ Both the retrieval gate and the LLM's `answerable` check worked as designed here
 - **`429` during ingestion**: raise `EMBED_BATCH_PAUSE`/lower `EMBED_BATCH_SIZE` in `.env` and re-run (idempotent).
 - **Index dimension mismatch**: the index must be 1536-d. Re-run ingestion with `--reset`.
 - **Every question refused / everything answered**: run `python -m src.calibrate` and set `RELEVANCE_THRESHOLD` from its suggestion.
-- **`ModuleNotFoundError: src`**: run commands from the repo root (`python -m src.ingestion`, not `python src/ingestion.py`).
+- **`ModuleNotFoundError: src`**: run commands from the repo root (`python -m src.ingestion`, not `python src/ingestion.py`).#   A g e n t i c - A I - R A G - A P I  
+ 
